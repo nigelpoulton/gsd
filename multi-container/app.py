@@ -19,7 +19,7 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return "What's up Pluralsighters! You've visited {} times.\n".format(count)
+    return "Hit refresh if you think Sunderland are the greatest football team in the world. You've only refreshed {} times. REFRESH MORE!!!\n".format(count)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
