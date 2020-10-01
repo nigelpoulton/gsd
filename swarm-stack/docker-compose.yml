@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  web-fe:
+    image: app/app:1.0
+    command: python app.py
+    deploy:
+      replicas: 3
+    ports:
+      - target: 8080
+        published: 5000
+    networks:
+      - counter-net
+    volumes:
+      - type: volume
+        source: counter-vol
+        target: /code
+  redis:
+    image: "redis:alpine"
+    networks:
+      counter-net:
+
+networks:
+  counter-net:
+
+volumes:
+  counter-vol:
