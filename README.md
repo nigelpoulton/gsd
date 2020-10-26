@@ -5,10 +5,11 @@ Official repo for Getting Started with Docker video training course by [@nigelpo
 ## first-container
 
 This folder contains the files to build a single-container web app (express, handlebars...)
-- Docker hub image: [nigelpoulton/gsd:container](https://hub.docker.com/repository/docker/nigelpoulton/gsd)
+- Docker hub image: [nigelpoulton/gsd:first-ctr](https://hub.docker.com/repository/docker/nigelpoulton/gsd)
 
 ## multi-container
 
+NEEDS UPDATING
 This folder contains the files to build a multi-container web app with Compose.
 - Pthon flask app with redis cache
 - Docker hub image: [nigelpoulton/gsd:compose-app](https://hub.docker.com/repository/docker/nigelpoulton/gsd)
