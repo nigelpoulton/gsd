@@ -11,7 +11,7 @@ This folder contains the files to build a single-container web app (express, han
 
 NEEDS UPDATING
 This folder contains the files to build a multi-container web app with Compose.
-- Pthon flask app with redis cache
+- Python flask app with redis cache
 - Docker hub image: [nigelpoulton/gsd:compose-app](https://hub.docker.com/repository/docker/nigelpoulton/gsd)
 
 ## swarm-stack
