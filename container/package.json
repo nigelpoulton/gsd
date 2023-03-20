@@ -1,0 +1,12 @@
+{
+  "name": "hello-docker",
+  "version": "1.0.0",
+  "description": "Web server showing host that responded",
+  "author": "@nigelpoulton",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.1",
+    "morgan": "^1.10.0"
+  }
+}
