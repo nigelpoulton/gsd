@@ -6,8 +6,10 @@ volumes:
   
 services:
   web-fe:
-    build: .
+    image: nigelpoulton/gsd:swarm2023
     command: python app.py
+    deploy:
+      replicas 10
     ports:
       - target: 8080
         published: 5001
