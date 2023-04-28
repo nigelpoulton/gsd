@@ -1,3 +1,5 @@
+# Un-comment the 'version' field if you get an 'unsupported Compose file version: 1.0' ERROR
+version: '3.8'
 networks:
   counter-net:
 
@@ -9,7 +11,7 @@ services:
     image: nigelpoulton/gsd:swarm2023
     command: python app.py
     deploy:
-      replicas 10
+      replicas: 10
     ports:
       - target: 8080
         published: 5001
